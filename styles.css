@@ -1,0 +1,141 @@
+body{
+  font-family:Arial,sans-sherif;
+  background-image: url("https://t4.ftcdn.net/jpg/02/78/69/37/360_F_278693728_O7t0fe2oDwwucHisBR1i8UhVxE5N229G.jpg");
+  background-size:cover;
+  background-position:center;
+  margin:0;
+  padding:0;
+  text-align:center;
+}
+h1{
+  color: yellow;
+  font-size:3rem;
+  font-weight:bold;
+  letter-spacing:2px;
+  text-align:center;
+  display:space-between;
+  margin:20px 0;
+  transition: all 0.3s ease;
+}
+h1:hover{
+  color: cyan;
+  transform:scale(1.05);
+}
+h2{
+  color:#D3D3D3;
+  font-size:2rem;
+  font-weight:600;
+  letter-spacing:1px;
+  text-align:center;
+  margin:15px 0;
+  transition: all 0.3s ease;
+}
+h2:hover{
+  color:#E0FFFF ;
+  transform:scale(1.03);
+}
+
+header{
+  font-family:Open Sans;
+  font-weight:bold;
+  color:#E63946;
+  padding:10px;
+  display:flex;
+  justify-content:flex-end;
+}
+navbar {
+ 
+  padding: 10px;
+  display: flex;
+  justify-content: flex-end; 
+}
+
+nav ul {
+  list-style: none;
+  margin: 0;
+  justify-content:center;
+  padding: 0;
+  display: flex; 
+  gap: 10px; 
+}
+
+
+p {
+  font-family: Lato, sans-serif;
+  color:white;
+  font-size:2rem;
+  font-weight:bold;
+  letter-spacing:2px;
+  font-size:25px;
+  margin:5px 0;
+  transition:all 0.3s ease;
+  
+}
+p:hover{
+  transform:scale(1.03);
+}
+
+nav ul li a {
+  text-decoration: none;
+  color: white;
+  padding: 8px 15px;
+  font-weight: bold;
+  display: inline-block;
+  position: relative;
+  transition: color 0.3s ease;
+}
+
+nav ul li a::after {
+  content: "";
+  position: absolute;
+  left: 0;
+  bottom: 0;
+  width: 0%;
+  height: 2px;
+  background: black;
+  transition: width 0.3s ease;
+}
+
+nav ul li a:hover::after {
+  width: 100%;
+}
+
+nav ul li a:hover {
+  background: black;
+  border-radius: 5px;
+}
+
+
+h3{
+  font-size:50px;
+  animation: zoom 3s infinite alternate;
+}
+
+img{
+    width:180px;
+    height:180px;
+    animation: zoom 3s infinite alternate;
+    border-radius:10%;
+}
+  @keyframes zoom{
+    0%{
+      transform:scale(0.8);
+    }
+    100%{
+      transform:scale(1.1);
+    }
+    }
+
+h3{
+  color:white;
+}
+h6{
+  font-size: 20px;
+}
+
+
+footer{
+  background-color:black;
+  color:white;
+  padding: 25px;
+}
